@@ -25,6 +25,8 @@ namespace GLD.Benchmark.XsltVsNet
             };
 
             Tester.Tests(repetitions, numberOfPoliceRecords, transformations);
+
+            Console.Read();
         }
     }
 
